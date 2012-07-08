@@ -1,0 +1,44 @@
+﻿@model IEnumerable<HolidayHome.Models.Holidayhomes>
+
+@{
+    ViewBag.Title = "Holiday Home Display";
+}
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.holidayhomeid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.address1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.holidayhomeid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
