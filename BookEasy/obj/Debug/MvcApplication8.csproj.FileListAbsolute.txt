@@ -1,0 +1,2 @@
+D:\NCI\c#\MvcApplication8\MvcApplication8\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\c#\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<BookEasy.Models.Holidayhome>
+
+@{
+    ViewBag.Title = "Holiday Homes";
+}
+
+<h2>Holiday Homes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>location</th>
+        <th>address1</th> 
+        <th>address2</th>
+        <th>country</th>
+        <th>email</th>
+        <th>contactno</th>
+        <th>amenities</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contactno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.amenities)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.holidayhomeID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.holidayhomeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.holidayhomeID })
+        </td>
+    </tr>
+}
+
+</table>

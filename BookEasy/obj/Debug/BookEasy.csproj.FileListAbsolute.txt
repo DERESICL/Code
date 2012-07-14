@@ -1,0 +1,7 @@
+D:\NCI\c#\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
+D:\NCI\c#\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
+D:\NCI\c#\MvcApplication8\MvcApplication8\bin\EntityFramework.dll
+D:\NCI\c#\MvcApplication8\MvcApplication8\bin\EntityFramework.xml
+D:\NCI\c#\MvcApplication8\MvcApplication8\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\c#\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
+D:\NCI\c#\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
