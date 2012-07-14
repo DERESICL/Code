@@ -1,0 +1,50 @@
+﻿@model BookEasy.Models.Owner
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Owner</legend>
+
+    <div class="display-label">Firstname</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Firstname)
+    </div>
+
+    <div class="display-label">Surname</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Surname)
+    </div>
+
+    <div class="display-label">Address1</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address1)
+    </div>
+
+    <div class="display-label">Address2</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address2)
+    </div>
+
+    <div class="display-label">Email</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">Contactno</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Contactno)
+    </div>
+
+    <div class="display-label">Holidayhomeno</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Holidayhomeno)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.OwnerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
