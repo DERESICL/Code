@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Owners" EntityType="Model.Owner" />
+    <AssociationSet Name="OwnerHolidayhome" Association="Model.OwnerHolidayhome">
+      <End Role="Owner" EntitySet="Owners" />
+      <End Role="Holidayhome" EntitySet="Confirmations" />
+    </AssociationSet>
+    <EntitySet Name="Confirmations" EntityType="Model.Confirmation" />
+    <EntitySet Name="Availabilities" EntityType="Model.Availability" />
+    <AssociationSet Name="AvailabilityHolidayhome" Association="Model.AvailabilityHolidayhome">
+      <End Role="Availability" EntitySet="Availabilities" />
+      <End Role="Holidayhome" EntitySet="Confirmations" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Holidayhome" BaseType="Model.Booking">
+    <Property Type="Int32" Name="HolidayhomeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Owner" Relationship="Model.OwnerHolidayhome" FromRole="Holidayhome" ToRole="Owner" />
+    <NavigationProperty Name="Availability" Relationship="Model.AvailabilityHolidayhome" FromRole="Holidayhome" ToRole="Availability" />
+  </EntityType>
+  <EntityType Name="Customer" BaseType="Model.Booking">
+    <Property Type="Int32" Name="CustomerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Booking" BaseType="Model.Confirmation">
+    <Property Name="BookingID" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Payment" BaseType="Model.Booking">
+    <Property Type="Int32" Name="BookingId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Owner">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Holidayhomes" Relationship="Model.OwnerHolidayhome" FromRole="Owner" ToRole="Holidayhome" />
+  </EntityType>
+  <Association Name="OwnerHolidayhome">
+    <End Type="Model.Owner" Role="Owner" Multiplicity="1" />
+    <End Type="Model.Holidayhome" Role="Holidayhome" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Confirmation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Availability">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Holidayhomes" Relationship="Model.AvailabilityHolidayhome" FromRole="Availability" ToRole="Holidayhome" />
+  </EntityType>
+  <Association Name="AvailabilityHolidayhome">
+    <End Type="Model.Availability" Role="Availability" Multiplicity="1" />
+    <End Type="Model.Holidayhome" Role="Holidayhome" Multiplicity="*" />
+  </Association>
+</Schema>
