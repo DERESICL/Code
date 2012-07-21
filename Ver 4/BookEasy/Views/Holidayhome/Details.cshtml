@@ -1,0 +1,36 @@
+﻿@model BookEasy.Models.Holidayhome
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Holidayhome</legend>
+
+    <div class="display-label">Location:
+        @Html.DisplayFor(model => model.location)
+    </div>
+
+    <div class="display-label">Address:
+        @Html.DisplayFor(model => model.address1)
+        @Html.DisplayFor(model => model.address2)
+    </div>
+
+    <div class="display-label">Email:
+        @Html.DisplayFor(model => model.email)
+    </div>
+
+    <div class="display-label">Contact No:
+        @Html.DisplayFor(model => model.contactno)
+    </div>
+
+    <div class="display-label">Amenities:
+        @Html.DisplayFor(model => model.amenities)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.holidayhomeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

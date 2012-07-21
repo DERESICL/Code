@@ -1,0 +1,27 @@
+D:\NCI\c#\MvcApplication8\BookEasy\bin\MvcApplication8.dll
+D:\NCI\c#\MvcApplication8\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\c#\MvcApplication8\BookEasy\bin\EntityFramework.dll
+D:\NCI\c#\MvcApplication8\BookEasy\bin\EntityFramework.xml
+D:\NCI\c#\MvcApplication8\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\c#\MvcApplication8\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\c#\MvcApplication8\BookEasy\obj\Debug\MvcApplication8.pdb
+I:\Easybook\BookEasy\bin\MvcApplication8.dll
+I:\Easybook\BookEasy\bin\MvcApplication8.pdb
+I:\Easybook\BookEasy\bin\EntityFramework.dll
+I:\Easybook\BookEasy\bin\EntityFramework.xml
+I:\Easybook\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+I:\Easybook\BookEasy\obj\Debug\MvcApplication8.dll
+I:\Easybook\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 2\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 2\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 2\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Entrerprise Frameworks\Ver 2\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 2\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 3\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\bin\LumenWorks.Framework.IO.dll
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\bin\LumenWorks.Framework.IO.xml
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4\BookEasy\obj\Debug\MvcApplication8.pdb
