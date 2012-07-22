@@ -15,7 +15,7 @@ body
 }
 
 a:link {
-    color: #034af3;
+    color: green;
     text-decoration: underline;
 }
 
@@ -59,6 +59,8 @@ h1 {
 
 h2 {
     padding: 0 0 10px 0;
+    text-align:right;
+    
 }
 
 h3 {
@@ -112,7 +114,7 @@ header h1, #header h1 {
 
 footer, 
 #footer {
-    background-color: #333fff;
+    background-color: Olive;
     color: #333;
     padding: 10px 0;
     text-align: center;
@@ -127,24 +129,26 @@ footer,
 /* TAB MENU   
 ----------------------------------------------------------*/
 ul#menu {
-    border-bottom: 1px #5C87B2 solid;
+    /* border-bottom: 1px #5C87B2 solid; Line under menu Tabs*/
     padding: 0 0 2px;
-    position: relative;
-    margin: 0;
-    text-align: right;
+    position: absolute ;
+    margin: 10px 0px 0px 30px;
+    text-align: left;
+    
 }
 
 ul#menu li {
     display: inline;
     list-style: none;
-}
+    background-color:Olive;
+    }
 
 ul#menu li#greeting {
     padding: 10px 20px;
     font-weight: bold;
     text-decoration: none;
     line-height: 2.8em;
-    color: #fff;
+    color: #444;
 }
 
 ul#menu li a {
@@ -152,15 +156,16 @@ ul#menu li a {
     font-weight: bold;
     text-decoration: none;
     line-height: 2.8em;
-    background-color: #e8eef4;
-    color: #034af3;
+    background-color: Olive;
+    /*Colour of text in menu boxes */
+    color: #fff;
     border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
     -moz-border-radius: 4px 4px 0 0;
 }
 
 ul#menu li a:hover {
-    background-color: #fff;
+    background-color: green;
     text-decoration: none;
 }
 
@@ -181,6 +186,8 @@ fieldset {
     border: 1px solid #ddd;
     padding: 0 1.4em 1.4em 1.4em;
     margin: 0 0 1.5em 0;
+    position relative;
+    
 }
 
 legend {
@@ -229,7 +236,8 @@ table td {
 table th {
     padding: 6px 5px;
     text-align: left;
-    background-color: #e8eef4;
+    /* Colour of heading row in table */
+    background-color: gold;
     border: solid 1px #e8eef4;
 }
 
@@ -308,11 +316,13 @@ div#title {
 .display-label, 
 .editor-label {
     margin: 1em 0 0 0;
+    color:Green;
 }
 
 .display-field, 
 .editor-field {
     margin: 0.5em 0 0 0;
+    color:Olive;
 }
 
 .text-box {

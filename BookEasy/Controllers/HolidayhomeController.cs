@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using BookEasy.Models;
 
+
 namespace BookEasy.Controllers
 { 
     public class HolidayhomeController : Controller

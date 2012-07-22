@@ -3,44 +3,35 @@
 @{
     ViewBag.Title = "Details";
 }
+<br />
+<br />
+<h2>Owner Details</h2>
 
-<h2>Details</h2>
 
 <fieldset>
     <legend>Owner</legend>
 
-    <div class="display-label">Firstname</div>
-    <div class="display-field">
+    <div class="display-label">Name: 
         @Html.DisplayFor(model => model.Firstname)
-    </div>
-
-    <div class="display-label">Surname</div>
-    <div class="display-field">
         @Html.DisplayFor(model => model.Surname)
     </div>
 
-    <div class="display-label">Address1</div>
-    <div class="display-field">
+    <div class="display-label">Address: 
+    
         @Html.DisplayFor(model => model.Address1)
-    </div>
-
-    <div class="display-label">Address2</div>
-    <div class="display-field">
         @Html.DisplayFor(model => model.Address2)
     </div>
 
-    <div class="display-label">Email</div>
-    <div class="display-field">
+    <div class="display-label">Email:
+
         @Html.DisplayFor(model => model.Email)
     </div>
-
-    <div class="display-label">Contactno</div>
-    <div class="display-field">
+    
+    <div class="display-label">Contact No:
         @Html.DisplayFor(model => model.Contactno)
     </div>
 
-    <div class="display-label">Holidayhomeno</div>
-    <div class="display-field">
+    <div class="display-label">Holiday Home No:
         @Html.DisplayFor(model => model.Holidayhomeno)
     </div>
 </fieldset>

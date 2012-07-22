@@ -7,6 +7,7 @@ using System.Web.Routing;
 using System.Data.Entity;
 using BookEasy.Models;
 using BookEasy.DAL;
+using BookEasy.Logic;
 
 namespace MvcApplication8
 {
@@ -40,7 +41,10 @@ namespace MvcApplication8
             RegisterRoutes(RouteTable.Routes);
 
             // Populates the database with data from Propertyinitializer
-            Database.SetInitializer<PropertyContext>(new PropertyInitializer());
+           Database.SetInitializer<PropertyContext>(new Propertyinitializer());
+
+           //System.Data.Entity.Database.SetInitializer(new Propertyinitializer());
+
         }
     }
 }

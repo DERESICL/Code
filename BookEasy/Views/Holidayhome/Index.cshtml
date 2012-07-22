@@ -9,25 +9,32 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
+
 <table>
     <tr>
-        <th>location</th>
-        <th>address1</th> 
-        <th>address2</th>
-        <th>country</th>
-        <th>email</th>
-        <th>contactno</th>
-        <th>amenities</th>
-        <th></th>
+        <th>Location</th>
+        <th>Address</th> 
+        <th>Town / City</th>
+        <th>Country</th>
+        <th>Email</th>
+        <th>Contact No</th>
+        <th>Amenities</th>
+        <th>Price Per Week</th>
+        <th>Actions</th>
+        
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.location)
+            <img src="@Url.Content("~/Content/themes/base/images/infinity.jpg")" style="max-width: 100px; max-height: 100px; float: left "; alt="Hosue";/>
         </td>
+  
+
         <td>
             @Html.DisplayFor(modelItem => item.address1)
+
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.address2)
@@ -44,12 +51,17 @@
         <td>
             @Html.DisplayFor(modelItem => item.amenities)
         </td>
+
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.holidayhomeID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.holidayhomeID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.holidayhomeID })
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.holidayhomeID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.holidayhomeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.holidayhomeID })
         </td>
     </tr>
 }
 
 </table>
+

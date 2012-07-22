@@ -12,7 +12,6 @@ namespace BookEasy.Models
 
     public class Holidayhome
     {
-
         public int holidayhomeID { get; set; }
 
         public string location { get; set; }
@@ -28,6 +27,8 @@ namespace BookEasy.Models
         public string contactno { get; set; }
 
         public string amenities { get; set; }
+
+        public string price { get; set; }
         public virtual ICollection<Subscribe> Subscribes { get; set; } 
 
 
