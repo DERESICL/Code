@@ -6,11 +6,22 @@
 
 <h2>Holiday Homes</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+    <table>
+    <tr> 
+    <th>Sort by Price</th> 
+    <th>@Html.ActionLink("Price", "Index", new { sortOrder=ViewBag.NameSortParm }) </th> 
+    </tr>
+    <tr>
+    <th>Add a new Holiday Home</th>
+    <th>@Html.ActionLink("New Entry", "Create")</th>
+    </tr></table>
 
-
+@using (Html.BeginForm()) 
+{ 
+    <p> 
+        Find by Country: @Html.TextBox("SearchString")   
+        <input type="submit" value="Search" /></p> 
+}
 <table>
     <tr>
         <th>Location</th>
@@ -56,7 +67,7 @@
             @Html.DisplayFor(modelItem => item.price)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.holidayhomeID }) |
+            @Html.ActionLink("Update", "update", new { id = item.holidayhomeID }) |
             @Html.ActionLink("Details", "Details", new { id = item.holidayhomeID }) |
             @Html.ActionLink("Delete", "Delete", new { id = item.holidayhomeID })
         </td>
@@ -64,4 +75,3 @@
 }
 
 </table>
-

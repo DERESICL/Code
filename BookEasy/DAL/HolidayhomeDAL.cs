@@ -20,33 +20,18 @@ namespace BookEasy.DAL
         public bool updateHolidayhomeDb(Holidayhome hse)
         {
             db.Entry(hse).State = EntityState.Modified;
-            try
-            {
+
                 db.SaveChanges();
                 return true;
-            }
-            catch (Exception exp)
-            {
-               
-                return false;
-            }
+
         }
 
         public bool addHolidayhomeDb(Holidayhome hse)
         {
             Holidayhome home = new Holidayhome();
-            try
-            {
+         
                 home = db.Holidayhomes.Add(hse);
-            }
-            
-            catch (Exception exp)
-            {
-               
-                Exception j = exp;
-                return false;
-                //do something
-            }
+      
 
             if (home is Holidayhome)
             {
@@ -56,5 +41,23 @@ namespace BookEasy.DAL
             return false;
         }
 
+
+        //Respond to user search enquiry
+
+        public List<Holidayhome> Search(string country)
+        {   
+
+            List<Holidayhome> Search= new List<Holidayhome>();
+            List<Holidayhome> listed = null;
+                listed = db.Holidayhomes.ToList();
+
+                    foreach (Holidayhome ctry in listed)
+                    {
+                        ctry.country.Equals(country);
+                        Search.Add(ctry);
+                    }
+                return Search;
+            
+        }
     } 
 }

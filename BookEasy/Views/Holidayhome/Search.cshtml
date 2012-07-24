@@ -1,0 +1,38 @@
+﻿@model BookEasy.Models.Holidayhome
+
+@{
+    ViewBag.Title = "Search For Holiday Home By Country";
+}
+
+<h2>Search By Country</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <p>BookEasy has Apartmnets and Villas in many different countries. To view our list just enter the country below.</p>
+        <br />
+        <legend>Enter Country:</legend>
+
+
+        <div class="editor-field">
+            @Html.EditorFor(model => model.country)
+            @Html.ValidationMessageFor(model => model.country)
+        </div>
+       <img src="@Url.Content("~/Content/themes/base/images/poolatnight.jpg")" style="max-width: 275px; max-height: 183px; float: right;" alt="Pool"; />
+        <p>
+            <input type="submit" value="Search" />
+        </p>
+    </fieldset>
+}
+
+@using (Html.BeginForm()) 
+{ 
+    <p> 
+        Find by name: @Html.TextBox("SearchString")   
+        <input type="submit" value="Search" /></p> 
+}
+<div>
+    @Html.ActionLink("Back to Home page", "Index")
+</div>
+
+

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Linq.Mapping;
+using System.ComponentModel.DataAnnotations;
 
 
 
@@ -16,14 +17,26 @@ namespace BookEasy.Models
 
         public string location { get; set; }
 
+        [Required(ErrorMessage = "Addrsss is required.")]
+        [Display(Name = "address1")]
+        [MaxLength(50)] 
         public string address1 { get; set; }
 
         public string address2 { get; set; }
 
+        [Required(ErrorMessage = "Country is required.")]
+        [Display(Name = "country")]
+        [MaxLength(30)]
         public string country { get; set; }
 
+        [Required(ErrorMessage = "Your email address is required.")]
+        [Display(Name = "email")]
+        [MaxLength(30)] 
         public string email { get; set; }
 
+        [Required(ErrorMessage = "A phone number is required.")]
+        [Display(Name = "contactno")]
+        [MaxLength(30)]
         public string contactno { get; set; }
 
         public string amenities { get; set; }

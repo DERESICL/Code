@@ -10,7 +10,10 @@ namespace BookEasy.Ingestion
     public interface IDataParser
     {
         List<Holidayhome> parseHolidayhomes();
+        List<Owner> parseOwners();
         void setStreamSource(StreamReader reader);
         Boolean supportsType(String format);
+
+        
     }
 }

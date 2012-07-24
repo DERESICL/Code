@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Data.Entity;
 using BookEasy.Models;
 using BookEasy.DAL;
-using BookEasy.Logic;
+using BookEasy.Ingestion;
 
 namespace MvcApplication8
 {
@@ -43,7 +43,6 @@ namespace MvcApplication8
             // Populates the database with data from Propertyinitializer
            Database.SetInitializer<PropertyContext>(new Propertyinitializer());
 
-           //System.Data.Entity.Database.SetInitializer(new Propertyinitializer());
 
         }
     }

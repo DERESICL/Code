@@ -1,0 +1,10 @@
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\BookEasyTests\bin\Debug\BookEasyTests.dll
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\BookEasyTests\bin\Debug\BookEasyTests.pdb
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\BookEasyTests\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\BookEasyTests\obj\Debug\BookEasyTests.dll
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\BookEasyTests\obj\Debug\BookEasyTests.pdb
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\BookEasyTests\bin\Debug\BookEasyTests.dll
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\BookEasyTests\bin\Debug\BookEasyTests.pdb
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\BookEasyTests\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\BookEasyTests\obj\Debug\BookEasyTests.dll
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\BookEasyTests\obj\Debug\BookEasyTests.pdb

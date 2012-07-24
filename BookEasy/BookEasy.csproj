@@ -82,19 +82,22 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OwnerController.cs" />
     <Compile Include="DAL\HolidayhomeDAL.cs" />
+    <Compile Include="DAL\OwnerDAL.cs" />
     <Compile Include="DAL\PropertyContext.cs" />
+    <Compile Include="DAL\Propertyinitializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Ingestion\CSVParser.cs" />
     <Compile Include="Ingestion\FileReader.cs" />
     <Compile Include="Ingestion\IDataParser.cs" />
-    <Compile Include="Logic\BuildDatabase.cs" />
+    <Compile Include="Ingestion\BuildDatabase.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Holidayhome.cs" />
     <Compile Include="Models\Owner.cs" />
-    <Compile Include="DAL\Propertyinitializer.cs" />
     <Compile Include="Models\Subscribe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -170,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="BLL\" />
     <Folder Include="Models\UI\" />
   </ItemGroup>
   <ItemGroup>
@@ -191,7 +195,7 @@
     <Content Include="Views\Owner\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Holidayhome\Index.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Holidayhome\Details.cshtml" />
@@ -200,13 +204,16 @@
     <Content Include="Views\Holidayhome\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Holidayhome\Edit.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Holidayhome\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\About\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Holidayhome\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Holidayhome\Search.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

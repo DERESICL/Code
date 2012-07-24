@@ -54,6 +54,47 @@ namespace BookEasy.Ingestion
            return holidaylist;
         }
 
+
+
+
+        //Create List to store your CSV data
+        public List<Models.Owner> parseOwners()
+        {
+            CsvReader csv = new CsvReader(reader, true);
+            int fieldCount = csv.FieldCount;
+            List<Owner> ownerlist = new List<Owner>();
+
+
+            String[] headers = csv.GetFieldHeaders();
+
+
+
+
+
+            while (csv.ReadNextRecord())
+            {
+                Owner exObj = new Owner();
+
+                for (int i = 0; i < fieldCount; i++)
+                {
+                    if (headers[i].Equals("firstname")) { exObj.firstname = csv[i]; }
+                    else if (headers[i].Equals("surname")) { exObj.surname = csv[i]; }
+                    else if (headers[i].Equals("address1")) { exObj.address1 = csv[i]; }
+                    else if (headers[i].Equals("address2")) { exObj.address2 = csv[i]; }
+                    else if (headers[i].Equals("country")) { exObj.country = csv[i]; }
+                    else if (headers[i].Equals("email")) { exObj.email = csv[i]; }
+                    else if (headers[i].Equals("contactno")) { exObj.contactno = csv[i]; }
+                    else if (headers[i].Equals("holidayhomeno")) { exObj.holidayhomeno = csv[i]; }
+                 }
+
+                ownerlist.Add(exObj);
+            }
+
+            return ownerlist;
+        }
+
+
+
         public void setStreamSource(StreamReader reader)
         {
             this.reader = reader;

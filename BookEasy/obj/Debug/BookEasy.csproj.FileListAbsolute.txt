@@ -39,3 +39,17 @@ D:\NCI\Ver 4.1\BookEasy\bin\LumenWorks.Framework.IO.xml
 D:\NCI\Ver 4.1\BookEasy\obj\Debug\ResolveAssemblyReference.cache
 D:\NCI\Ver 4.1\BookEasy\obj\Debug\MvcApplication8.dll
 D:\NCI\Ver 4.1\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\bin\LumenWorks.Framework.IO.dll
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\bin\LumenWorks.Framework.IO.xml
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Ver 4.2 CSV DAL Working\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\bin\LumenWorks.Framework.IO.dll
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\bin\LumenWorks.Framework.IO.xml
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Ver 4.3 Search and sorting\BookEasy\obj\Debug\MvcApplication8.pdb
