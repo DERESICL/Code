@@ -16,10 +16,72 @@ namespace BookEasy.Controllers
         //
         // GET: /Owner/
 
-        public ViewResult Index()
+        //Used to display holiday homes. Checks to see if a search enquiry
+        //and if there is respond to user search enquiry
+        public ViewResult Index(string sortOrder, string searchString)
         {
-            return View(db.Owners.ToList());
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Country" : "";
+            var owners = from own in db.Owners
+                               select own;
+
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                owners = owners.Where(own => own.surname.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.firstname.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.address1.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.address2.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.country.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.email.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.contactno.ToUpper().Contains(searchString.ToUpper()) ||
+                                             own.holidayhomeno.ToUpper().Contains(searchString.ToUpper()));   
+            
+            }
+
+
+         
+
+
+
+
+            switch (sortOrder)
+            {
+                case "Firstname":
+                    owners = owners.OrderByDescending(own => own.firstname);
+                    break;
+                case "Surnmae":
+                    owners = owners.OrderByDescending(own => own.surname);
+                    break;
+                case "Address1":
+                    owners = owners.OrderBy(own => own.address1);
+                    break;
+                case "Address2":
+                    owners = owners.OrderByDescending(own => own.address2);
+                    break;
+                case "Country":
+                    owners = owners.OrderByDescending(own => own.country);
+                    break;
+                case "Email":
+                    owners = owners.OrderByDescending(own => own.email);
+                    break;
+                case "Contactno":
+                    owners = owners.OrderByDescending(own => own.contactno);
+                    break;
+                case "Holidayhomeno":
+                    owners = owners.OrderByDescending(own => own.holidayhomeno);
+                    break;
+
+
+                //If no sort prefernece given sort by email 
+                default:
+                    owners = owners.OrderBy(own => own.surname);
+                    break;
+            }
+            return View(owners.ToList());
+
         }
+        
+
 
         //
         // GET: /Owner/Details/5

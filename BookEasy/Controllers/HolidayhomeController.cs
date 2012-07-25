@@ -15,14 +15,7 @@ namespace BookEasy.Controllers
     {
         private PropertyContext db = new PropertyContext();
 
-        //
-        // GET: /Holidayhome/
-/*
-        public ViewResult Index()
-        {
-            return View(db.Holidayhomes.ToList());
-        }
-        */
+
         //Used to display holiday homes. Checks to see if a search enquiry
         //and if there is respond to user search enquiry
         public ViewResult Index(string sortOrder, string searchString)
@@ -34,7 +27,15 @@ namespace BookEasy.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                holidayhomes = holidayhomes.Where(hse => hse.country.ToUpper().Contains(searchString.ToUpper()));
+                holidayhomes = holidayhomes.Where(hse => hse.location.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.address1.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.address2.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.country.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.email.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.contactno.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.amenities.ToUpper().Contains(searchString.ToUpper()) ||
+                                             hse.price.ToUpper().Contains(searchString.ToUpper())); 
+
             } 
 
 

@@ -19,7 +19,7 @@
 @using (Html.BeginForm()) 
 { 
     <p> 
-        Find by Country: @Html.TextBox("SearchString")   
+        @Html.TextBox("SearchString")   
         <input type="submit" value="Search" /></p> 
 }
 <table>
@@ -36,11 +36,14 @@
         
     </tr>
 
+
 @foreach (var item in Model) {
     <tr>
-        <td>
-            <img src="@Url.Content("~/Content/themes/base/images/infinity.jpg")" style="max-width: 100px; max-height: 100px; float: left "; alt="Hosue";/>
-        </td>
+        <td><img src="@Url.Content("~/Content/themes/base/images/infinity.jpg")" style="max-width: 100px; max-height: 100px; float: left "; alt="Hosue";/></td>
+      
+
+      
+
   
 
         <td>
@@ -75,3 +78,7 @@
 }
 
 </table>
+
+<div>
+    @Html.ActionLink("Return to Home Page", "Index")
+</div>
