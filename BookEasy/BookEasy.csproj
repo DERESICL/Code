@@ -82,7 +82,11 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OwnerController.cs" />
     <Compile Include="DAL\HolidayhomeDAL.cs" />
+    <Compile Include="DAL\HolidayhomeRepository.cs" />
+    <Compile Include="DAL\IHolidayhomeRespository.cs" />
+    <Compile Include="DAL\IOwnerRepository.cs" />
     <Compile Include="DAL\OwnerDAL.cs" />
+    <Compile Include="DAL\OwnerPepository.cs" />
     <Compile Include="DAL\PropertyContext.cs" />
     <Compile Include="DAL\Propertyinitializer.cs">
       <SubType>Code</SubType>
@@ -213,7 +217,7 @@
     <Content Include="Views\Holidayhome\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Holidayhome\Search.cshtml" />
+    <Content Include="Views\Holidayhome\Edit.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

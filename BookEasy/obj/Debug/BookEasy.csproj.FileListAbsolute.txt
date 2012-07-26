@@ -63,3 +63,13 @@ I:\Ver 4.3 Search and sorting\BookEasy\bin\MvcApplication8.pdb
 I:\Ver 4.3 Search and sorting\BookEasy\obj\Debug\ResolveAssemblyReference.cache
 I:\Ver 4.3 Search and sorting\BookEasy\obj\Debug\MvcApplication8.dll
 I:\Ver 4.3 Search and sorting\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4.3 Generic Search and sorting\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Entrerprise Frameworks\Ver 4.3 Generic Search and sorting\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4.3 Generic Search and sorting\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4.3 Generic Search and sorting\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4.3 Generic Search and sorting\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\obj\Debug\MvcApplication8.pdb

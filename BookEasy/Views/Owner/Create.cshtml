@@ -47,6 +47,13 @@
         </div>
 
         <div class="editor-label">
+            @Html.LabelFor(model => model.country)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.country)
+            @Html.ValidationMessageFor(model => model.country)
+        </div>
+        <div class="editor-label">
             @Html.LabelFor(model => model.email)
         </div>
         <div class="editor-field">

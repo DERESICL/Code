@@ -1,27 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System; 
+using System.Collections.Generic; 
+using System.Data; 
+using System.Data.Entity; 
+using System.Linq; 
+using System.Web; 
+using System.Web.Mvc; 
 using BookEasy.Models;
 using BookEasy.DAL;
 
-
-namespace BookEasy.Controllers
+ 
+namespace ContosoUniversity.Controllers 
 { 
-    public class HolidayhomeController : Controller
+    public class HolidayhomeController : Controller 
     {
-        private PropertyContext db = new PropertyContext();
-
+        private IHolidayhomeRepository HolidayhomeRepository;
+ 
+ 
+        public HolidayhomeController() 
+        { 
+            this.HolidayhomeRepository = new HolidayhomeRepository(new PropertyContext()); 
+        } 
+ 
+        public HolidayhomeController(IHolidayhomeRepository HolidayhomeRepository) 
+        { 
+            this.HolidayhomeRepository = HolidayhomeRepository; 
+        } 
 
         //Used to display holiday homes. Checks to see if a search enquiry
         //and if there is respond to user search enquiry
         public ViewResult Index(string sortOrder, string searchString)
         {
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Price" : "";
-            var holidayhomes = from hse in db.Holidayhomes
+
+
+
+                      
+            var holidayhomes = from hse in HolidayhomeRepository.GetHolidayhomes()
                            select hse;
 
 
@@ -78,97 +92,122 @@ namespace BookEasy.Controllers
             return View(holidayhomes.ToList()); 
 
         }
-        
 
 
+        // 
+        // GET: /Holidayhome/Edit/5 
 
-        //
-        // GET: /Holidayhome/Details/5
+        public ActionResult Edit(int id)
+        {
+            Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
+            return View(Holidayhome);
+        }
+
+        // 
+        // POST: /Holidayhome/Edit/5 
+
+        [HttpPost]
+        public ActionResult Edit(Holidayhome Holidayhome)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    HolidayhomeRepository.UpdateHolidayhome(Holidayhome);
+                    HolidayhomeRepository.Save();
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (DataException)
+            {
+                //Log the error (add a variable name after DataException) 
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
+            }
+            return View(Holidayhome);
+        }
+
+        // 
+        // GET: /Holidayhome/Delete/5 
+
+        public ActionResult Delete(int id, bool? saveChangesError)
+        {
+            if (saveChangesError.GetValueOrDefault())
+            {
+                ViewBag.ErrorMessage = "Unable to save changes. Try again, and if the problem persists see your system administrator.";
+            }
+            Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
+            return View(Holidayhome);
+        }
+
+
+        // 
+        // POST: /Holidayhome/Delete/5 
+
+        [HttpPost, ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            try
+            {
+                Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
+                HolidayhomeRepository.DeleteHolidayhome(id);
+                HolidayhomeRepository.Save();
+            }
+            catch (DataException)
+            {
+                //Log the error (add a variable name after DataException) 
+                return RedirectToAction("Delete",
+                    new System.Web.Routing.RouteValueDictionary {  
+                { "id", id },  
+                { "saveChangesError", true } });
+            }
+            return RedirectToAction("Index");
+        }
+
+
+        // 
+        // GET: /Holidayhome/Details/5 
 
         public ViewResult Details(int id)
         {
-            Holidayhome holidayhome = db.Holidayhomes.Find(id);
-            return View(holidayhome);
+            Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
+            return View(Holidayhome);
         }
 
-        //
-        // GET: /Holidayhome/Create
+        // 
+        // GET: /Holidayhome/Create 
 
         public ActionResult Create()
         {
             return View();
         }
 
-
-
-
-        //
-        // POST: /Holidayhome/Create
+        // 
+        // POST: /Holidayhome/Create 
 
         [HttpPost]
-        public ActionResult Create(Holidayhome holidayhome)
+        public ActionResult Create(Holidayhome Holidayhome)
         {
-            if (ModelState.IsValid)
+            try
             {
-                db.Holidayhomes.Add(holidayhome);
-                db.SaveChanges();
-                return RedirectToAction("Index");  
+                if (ModelState.IsValid)
+                {
+                    HolidayhomeRepository.InsertHolidayhome(Holidayhome);
+                    HolidayhomeRepository.Save();
+                    return RedirectToAction("Index");
+                }
             }
-
-            return View(holidayhome);
-        }
-      
-        //
-        // GET: /Holidayhome/Edit/5
- 
-        public ActionResult update(int id)
-        {
-            Holidayhome holidayhome = db.Holidayhomes.Find(id);
-            return View(holidayhome);
-        }
-
-        //
-        // POST: /Holidayhome/Edit/5
-
-        [HttpPost]
-        public ActionResult update(Holidayhome holidayhome)
-        {
-            if (ModelState.IsValid)
+            catch (DataException)
             {
-                db.Entry(holidayhome).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                //Log the error (add a variable name after DataException) 
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
             }
-            return View(holidayhome);
-        }
-
-        //
-        // GET: /Holidayhome/Delete/5
- 
-        public ActionResult Delete(int id)
-        {
-            Holidayhome holidayhome = db.Holidayhomes.Find(id);
-            return View(holidayhome);
-        }
-
-        //
-        // POST: /Holidayhome/Delete/5
-
-        [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(int id)
-        {            
-            Holidayhome holidayhome = db.Holidayhomes.Find(id);
-            db.Holidayhomes.Remove(holidayhome);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
-
+            return View(Holidayhome);
+        } 
 
 
         protected override void Dispose(bool disposing)
         {
-            db.Dispose();
+            HolidayhomeRepository.Dispose();
             base.Dispose(disposing);
         }
     }
