@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1217c32a-08b2-43bf-81c7-6738008866e9" name="Dermot@DERMOT-PC 2012-07-26 23:31:10" runUser="Dermot-PC\Dermot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0f5dff7c-649d-4a55-a4b7-bda43cafb47a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dermot_DERMOT-PC 2012-07-26 23_31_10">
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\MvcApplication8.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\EntityFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-26T23:31:10.8245210+01:00" queuing="2012-07-26T23:31:11.2445210+01:00" start="2012-07-26T23:31:11.4785210+01:00" finish="2012-07-26T23:31:13.7155210+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="notsupportsTypeBlankTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="be9a5232-24ea-9f29-50ce-95f02c6b80b6">
+      <Execution id="252f1d9c-3c10-4fa9-bbf3-8877fc967e75" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeBlankTest" />
+    </UnitTest>
+    <UnitTest name="setStreamSourceHolidayhomeTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f999f2f8-6c86-d7f5-ff07-bee95cae1165">
+      <Execution id="d67bad95-07ed-4a82-a78d-0c0c22b0b4f4" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceHolidayhomeTest" />
+    </UnitTest>
+    <UnitTest name="supportsTypeCSVTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="7703e91f-a58f-bfce-8701-f1e8eccbbb1e">
+      <Execution id="76a67e8b-f626-46f8-81b2-9e3475e69287" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeCSVTest" />
+    </UnitTest>
+    <UnitTest name="parseHolidayhomesTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="eca86a0c-b3cb-e1f0-535c-defcb924e01e">
+      <Execution id="0e1c8949-a9fe-4a97-bb0c-d67d33a74a79" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseHolidayhomesTest1" />
+    </UnitTest>
+    <UnitTest name="setStreamSourceOwnerTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="a606be8b-3df4-b902-88f2-8409eee14bda">
+      <Execution id="d822a6c5-6664-41a3-a9af-4c492f253fc1" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceOwnerTest" />
+    </UnitTest>
+    <UnitTest name="parseOwnersTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="78164f1c-d15c-40dc-5423-4041bda3ec3d">
+      <Execution id="324c5291-d10d-45e8-85ff-ec5f824c6d81" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseOwnersTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeXLSTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="fb09d967-e59d-4548-64b2-52411553597d">
+      <Execution id="6ceaf480-9479-441b-a708-4548ee1dae51" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeXLSTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeXLSXTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="b12fac82-342e-64ef-e372-4a55d64a8432">
+      <Execution id="a7808eb1-8754-4f3b-9308-ec5965194d2f" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeXLSXTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7703e91f-a58f-bfce-8701-f1e8eccbbb1e" executionId="76a67e8b-f626-46f8-81b2-9e3475e69287" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" executionId="324c5291-d10d-45e8-85ff-ec5f824c6d81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a606be8b-3df4-b902-88f2-8409eee14bda" executionId="d822a6c5-6664-41a3-a9af-4c492f253fc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b12fac82-342e-64ef-e372-4a55d64a8432" executionId="a7808eb1-8754-4f3b-9308-ec5965194d2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be9a5232-24ea-9f29-50ce-95f02c6b80b6" executionId="252f1d9c-3c10-4fa9-bbf3-8877fc967e75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" executionId="0e1c8949-a9fe-4a97-bb0c-d67d33a74a79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f999f2f8-6c86-d7f5-ff07-bee95cae1165" executionId="d67bad95-07ed-4a82-a78d-0c0c22b0b4f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb09d967-e59d-4548-64b2-52411553597d" executionId="6ceaf480-9479-441b-a708-4548ee1dae51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76a67e8b-f626-46f8-81b2-9e3475e69287" testId="7703e91f-a58f-bfce-8701-f1e8eccbbb1e" testName="supportsTypeCSVTest" computerName="DERMOT-PC" duration="00:00:00.0800947" startTime="2012-07-26T23:31:11.8875210+01:00" endTime="2012-07-26T23:31:12.4155210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76a67e8b-f626-46f8-81b2-9e3475e69287">
+    </UnitTestResult>
+    <UnitTestResult executionId="324c5291-d10d-45e8-85ff-ec5f824c6d81" testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" testName="parseOwnersTest" computerName="DERMOT-PC" duration="00:00:00.0303560" startTime="2012-07-26T23:31:12.4275210+01:00" endTime="2012-07-26T23:31:12.4725210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="324c5291-d10d-45e8-85ff-ec5f824c6d81">
+    </UnitTestResult>
+    <UnitTestResult executionId="d822a6c5-6664-41a3-a9af-4c492f253fc1" testId="a606be8b-3df4-b902-88f2-8409eee14bda" testName="setStreamSourceOwnerTest" computerName="DERMOT-PC" duration="00:00:00.0026423" startTime="2012-07-26T23:31:12.5005210+01:00" endTime="2012-07-26T23:31:12.5125210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d822a6c5-6664-41a3-a9af-4c492f253fc1">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7808eb1-8754-4f3b-9308-ec5965194d2f" testId="b12fac82-342e-64ef-e372-4a55d64a8432" testName="notsupportsTypeXLSXTest" computerName="DERMOT-PC" duration="00:00:00.0292925" startTime="2012-07-26T23:31:12.5225210+01:00" endTime="2012-07-26T23:31:12.7815210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7808eb1-8754-4f3b-9308-ec5965194d2f">
+    </UnitTestResult>
+    <UnitTestResult executionId="252f1d9c-3c10-4fa9-bbf3-8877fc967e75" testId="be9a5232-24ea-9f29-50ce-95f02c6b80b6" testName="notsupportsTypeBlankTest" computerName="DERMOT-PC" duration="00:00:00.0041444" startTime="2012-07-26T23:31:12.7915210+01:00" endTime="2012-07-26T23:31:12.8035210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="252f1d9c-3c10-4fa9-bbf3-8877fc967e75">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e1c8949-a9fe-4a97-bb0c-d67d33a74a79" testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" testName="parseHolidayhomesTest1" computerName="DERMOT-PC" duration="00:00:00.0065819" startTime="2012-07-26T23:31:12.8105210+01:00" endTime="2012-07-26T23:31:12.8325210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e1c8949-a9fe-4a97-bb0c-d67d33a74a79">
+    </UnitTestResult>
+    <UnitTestResult executionId="d67bad95-07ed-4a82-a78d-0c0c22b0b4f4" testId="f999f2f8-6c86-d7f5-ff07-bee95cae1165" testName="setStreamSourceHolidayhomeTest" computerName="DERMOT-PC" duration="00:00:00.0030334" startTime="2012-07-26T23:31:12.8405210+01:00" endTime="2012-07-26T23:31:12.8545210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d67bad95-07ed-4a82-a78d-0c0c22b0b4f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ceaf480-9479-441b-a708-4548ee1dae51" testId="fb09d967-e59d-4548-64b2-52411553597d" testName="notsupportsTypeXLSTest" computerName="DERMOT-PC" duration="00:00:00.0035922" startTime="2012-07-26T23:31:12.8635210+01:00" endTime="2012-07-26T23:31:12.8785210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ceaf480-9479-441b-a708-4548ee1dae51">
+    </UnitTestResult>
+  </Results>
+</TestRun>

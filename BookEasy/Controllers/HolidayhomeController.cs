@@ -7,9 +7,11 @@ using System.Web;
 using System.Web.Mvc; 
 using BookEasy.Models;
 using BookEasy.DAL;
+using BookEasy.BLL;
+
 
  
-namespace ContosoUniversity.Controllers 
+namespace BookEasy.Controllers 
 { 
     public class HolidayhomeController : Controller 
     {
@@ -33,7 +35,6 @@ namespace ContosoUniversity.Controllers
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Price" : "";
 
 
-
                       
             var holidayhomes = from hse in HolidayhomeRepository.GetHolidayhomes()
                            select hse;
@@ -41,7 +42,7 @@ namespace ContosoUniversity.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                holidayhomes = holidayhomes.Where(hse => hse.location.ToUpper().Contains(searchString.ToUpper()) ||
+                holidayhomes = holidayhomes.Where(hse => hse.holidayhomeno.ToUpper().Contains(searchString.ToUpper()) ||
                                              hse.address1.ToUpper().Contains(searchString.ToUpper()) ||
                                              hse.address2.ToUpper().Contains(searchString.ToUpper()) ||
                                              hse.country.ToUpper().Contains(searchString.ToUpper()) ||
@@ -59,8 +60,8 @@ namespace ContosoUniversity.Controllers
 
             switch (sortOrder)
             {
-                case "Loaction":
-                    holidayhomes = holidayhomes.OrderByDescending(hse => hse.location);
+                case "Holidayhomeno":
+                    holidayhomes = holidayhomes.OrderByDescending(hse => hse.holidayhomeno);
                     break;
                 case "Address1":
                     holidayhomes = holidayhomes.OrderBy(hse => hse.address1);
@@ -89,21 +90,35 @@ namespace ContosoUniversity.Controllers
                     holidayhomes = holidayhomes.OrderBy(hse => hse.email);
                     break;
             }
+
             return View(holidayhomes.ToList()); 
 
         }
 
 
         // 
-        // GET: /Holidayhome/Edit/5 
+        /* GET: /Holidayhome/Homebooking/5 
+
+        public ActionResult Booking(int id)
+        {
+            Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
+            return View(Holidayhome);
+        }*/
+
+        public ActionResult Booking(int id)
+        {
+            Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
+            return View(Holidayhome);
+        }        // 
+
 
         public ActionResult Edit(int id)
         {
             Holidayhome Holidayhome = HolidayhomeRepository.GetHolidayhomeByID(id);
             return View(Holidayhome);
-        }
 
-        // 
+        }
+        
         // POST: /Holidayhome/Edit/5 
 
         [HttpPost]
@@ -202,7 +217,8 @@ namespace ContosoUniversity.Controllers
                 ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists see your system administrator.");
             }
             return View(Holidayhome);
-        } 
+        }
+
 
 
         protected override void Dispose(bool disposing)

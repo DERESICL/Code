@@ -1,0 +1,37 @@
+﻿@model BookEasy.Models.Holidayhome
+
+@{
+    ViewBag.Title = "Holiday Home Booking Form";
+}
+
+<h2>Details</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+<fieldset>
+    <legend>Holidayhome</legend>
+           <img src="@Url.Content("~/Content/themes/base/images/poolatnight.jpg")" style="max-width: 275px; max-height: 183px; float: right;" alt="Pool"; />
+    <div class="display-label">Holiday Home No:
+        @Html.DisplayFor(model => model.holidayhomeno)
+    </div>
+
+    <div class="display-label">Address:
+        @Html.DisplayFor(model => model.address1)
+        @Html.DisplayFor(model => model.address2)
+    </div>
+
+    <div class="display-label">Amenities:
+        @Html.DisplayFor(model => model.amenities)
+    </div>
+
+     <div class="display-label">Price Per Week:
+        @Html.DisplayFor(model => model.price)
+    </div>
+</fieldset>
+}
+<p> Please have your credit card ready to book this Holiday Apartment / Villa</p>
+<p>
+    @Html.ActionLink("Book Now", "Booking", new { id=Model.holidayhomeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

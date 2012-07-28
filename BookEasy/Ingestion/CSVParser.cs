@@ -35,7 +35,7 @@ namespace BookEasy.Ingestion
                    
                 for (int i = 0; i < fieldCount; i++)
                 {
-                    if (headers[i].Equals("location"))  {exObj.location = csv[i];}
+                    if (headers[i].Equals("holidayhomeno"))  {exObj.holidayhomeno = csv[i];}
                     else if (headers[i].Equals("address1")) { exObj.address1 = csv[i]; }
                     else if (headers[i].Equals("address2")) { exObj.address2 = csv[i]; }
                     else if (headers[i].Equals("country"))  { exObj.country = csv[i];  }
@@ -94,6 +94,41 @@ namespace BookEasy.Ingestion
         }
 
 
+        //Create List to store your CSV data
+        public List<Models.Booking> parseBookings()
+        {
+            CsvReader csv = new CsvReader(reader, true);
+            int fieldCount = csv.FieldCount;
+            List<Booking> bookinglist = new List<Booking>();
+
+
+            String[] headers = csv.GetFieldHeaders();
+
+
+
+
+
+            while (csv.ReadNextRecord())
+            {
+                Booking exObj = new Booking();
+
+                for (int i = 0; i < fieldCount; i++)
+                {
+                    if (headers[i].Equals("holidayhomeno")) { exObj.holidayhomeno = csv[i]; }
+                    else if (headers[i].Equals("customername")) { exObj.customername = csv[i]; }
+                    else if (headers[i].Equals("address")) { exObj.address = csv[i]; }
+                    else if (headers[i].Equals("price")) { exObj.price = csv[i]; }
+                    else if (headers[i].Equals("startdate")) { exObj.startdate = csv[i]; }
+                    else if (headers[i].Equals("enddate")) { exObj.enddate = csv[i]; }
+                    else if (headers[i].Equals("creditcardtype")) { exObj.creditcardtype = csv[i]; }
+                    else if (headers[i].Equals("expirydate")) { exObj.expirydate = csv[i]; }
+                }
+
+                bookinglist.Add(exObj);
+            }
+
+            return bookinglist;
+        }
 
         public void setStreamSource(StreamReader reader)
         {

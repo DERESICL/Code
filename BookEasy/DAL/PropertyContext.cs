@@ -11,7 +11,7 @@ namespace BookEasy.Models
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Subscribe> Subscribes { get; set; }
         public DbSet<Holidayhome> Holidayhomes { get; set; }
-
+        public DbSet<Booking> Bookings { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

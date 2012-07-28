@@ -11,6 +11,7 @@ namespace BookEasy.Ingestion
     {
         List<Holidayhome> parseHolidayhomes();
         List<Owner> parseOwners();
+        List<Booking> parseBookings();
         void setStreamSource(StreamReader reader);
         Boolean supportsType(String format);
 

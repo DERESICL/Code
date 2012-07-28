@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5abf18c1-03df-4992-933c-35e5c04d18a9" name="Dermot@DERMOT-PC 2012-07-26 21:54:03" runUser="Dermot-PC\Dermot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0f5dff7c-649d-4a55-a4b7-bda43cafb47a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dermot_DERMOT-PC 2012-07-26 21_54_03">
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\MvcApplication8.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\EntityFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-26T21:54:03.9695210+01:00" queuing="2012-07-26T21:54:04.2435210+01:00" start="2012-07-26T21:54:04.4395210+01:00" finish="2012-07-26T21:54:06.1885210+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="parseOwnersTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="78164f1c-d15c-40dc-5423-4041bda3ec3d">
+      <Execution id="8f1369a3-b753-4080-8905-c4ccaf5ff8ec" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseOwnersTest" />
+    </UnitTest>
+    <UnitTest name="supportsTypeTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="309a9889-cabf-9b96-9d8f-73397dabb942">
+      <Execution id="d2814ac4-3ff5-4835-bf00-d223e66b63a6" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest" />
+    </UnitTest>
+    <UnitTest name="GetHolidayhomesTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="b60750c9-a898-a9d0-0503-bff894f27117">
+      <Execution id="c08590b1-66c2-4018-818a-6a78e3756475" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.IHolidayhomeRepositoryTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetHolidayhomesTest" />
+    </UnitTest>
+    <UnitTest name="parseHolidayhomesTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="eca86a0c-b3cb-e1f0-535c-defcb924e01e">
+      <Execution id="5262e9e9-dd0e-420c-b5a1-f27fac111b5a" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseHolidayhomesTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="309a9889-cabf-9b96-9d8f-73397dabb942" executionId="d2814ac4-3ff5-4835-bf00-d223e66b63a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" executionId="8f1369a3-b753-4080-8905-c4ccaf5ff8ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b60750c9-a898-a9d0-0503-bff894f27117" executionId="c08590b1-66c2-4018-818a-6a78e3756475" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" executionId="5262e9e9-dd0e-420c-b5a1-f27fac111b5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d2814ac4-3ff5-4835-bf00-d223e66b63a6" testId="309a9889-cabf-9b96-9d8f-73397dabb942" testName="supportsTypeTest" computerName="DERMOT-PC" duration="00:00:00.0248725" startTime="2012-07-26T21:54:04.6495210+01:00" endTime="2012-07-26T21:54:05.2645210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2814ac4-3ff5-4835-bf00-d223e66b63a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="8f1369a3-b753-4080-8905-c4ccaf5ff8ec" testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" testName="parseOwnersTest" computerName="DERMOT-PC" duration="00:00:00.0253673" startTime="2012-07-26T21:54:05.2855210+01:00" endTime="2012-07-26T21:54:05.3195210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f1369a3-b753-4080-8905-c4ccaf5ff8ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="c08590b1-66c2-4018-818a-6a78e3756475" testId="b60750c9-a898-a9d0-0503-bff894f27117" testName="GetHolidayhomesTest" computerName="DERMOT-PC" duration="00:00:00.0310498" startTime="2012-07-26T21:54:05.3295210+01:00" endTime="2012-07-26T21:54:05.3715210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c08590b1-66c2-4018-818a-6a78e3756475">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Project_Tests.IHolidayhomeRepositoryTest.GetHolidayhomesTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Project_Tests.IHolidayhomeRepositoryTest.GetHolidayhomesTest() in D:\NCI\BookEasy\Project Tests\IHolidayhomeRepositoryTest.cs:line 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5262e9e9-dd0e-420c-b5a1-f27fac111b5a" testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" testName="parseHolidayhomesTest1" computerName="DERMOT-PC" duration="00:00:00.0258677" startTime="2012-07-26T21:54:05.3795210+01:00" endTime="2012-07-26T21:54:05.4155210+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5262e9e9-dd0e-420c-b5a1-f27fac111b5a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

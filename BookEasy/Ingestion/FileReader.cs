@@ -12,6 +12,7 @@ namespace BookEasy.Ingestion
     {
         private string Holidayhomefile = "D:\\NCI\\holidayhomes.csv";
         private string Ownerfile = "D:\\NCI\\owners.csv";
+        private string Bookingfile = "D:\\NCI\\bookings.csv";
         private StreamReader Reader;
 
 
@@ -48,6 +49,21 @@ namespace BookEasy.Ingestion
 
         }
 
+        public List<Booking> getCSVBookingdata()
+        {
+            //Checks to see your CSV file exists
+            if (!File.Exists(Bookingfile))
+            {
+                return null;
+            }
+
+            Reader = new StreamReader(Bookingfile);
+            CSVParser dataparse = new CSVParser();
+
+            dataparse.setStreamSource(Reader);
+            return (dataparse.parseBookings());
+
+        }
 
 
     }

@@ -73,3 +73,17 @@ D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\bin\MvcApplica
 D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\bin\MvcApplication8.pdb
 D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\obj\Debug\MvcApplication8.dll
 D:\NCI\Entrerprise Frameworks\Ver 4.4 CRUD in Repository\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4.4 Home and owner CRUD in Repository\BookEasy\bin\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4.4 Home and owner CRUD in Repository\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\Entrerprise Frameworks\Ver 4.4 Home and owner CRUD in Repository\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\Entrerprise Frameworks\Ver 4.4 Home and owner CRUD in Repository\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\Entrerprise Frameworks\Ver 4.4 Home and owner CRUD in Repository\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\BookEasy\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\BookEasy\bin\MvcApplication8.dll
+D:\NCI\BookEasy\bin\MvcApplication8.pdb
+D:\NCI\BookEasy\obj\Debug\MvcApplication8.dll
+D:\NCI\BookEasy\obj\Debug\MvcApplication8.pdb
+D:\NCI\BookEasy\bin\PagedList.dll
+D:\NCI\BookEasy\bin\PagedList.Mvc.dll
+D:\NCI\BookEasy\bin\PagedList.xml
+D:\NCI\BookEasy\bin\PagedList.Mvc.xml

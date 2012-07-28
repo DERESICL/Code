@@ -24,7 +24,8 @@
 }
 <table>
     <tr>
-        <th>Location</th>
+        <th>Apartment/Villa</th>
+        <th>Ref No</th>
         <th>Address</th> 
         <th>Town / City</th>
         <th>Country</th>
@@ -43,7 +44,11 @@
       
 
       
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.holidayhomeno)
 
+        </td>
   
 
         <td>
@@ -69,12 +74,16 @@
         <td>
             @Html.DisplayFor(modelItem => item.price)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.holidayhomeID }) |
-            @Html.ActionLink("Details", "Details", new { id = item.holidayhomeID }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.holidayhomeID })
-        </td>
-    </tr>
+        
+        
+        
+        <td>@Html.ActionLink("Edit", "Edit", new { id = item.holidayhomeID })
+        @Html.ActionLink("Details", "Details", new { id = item.holidayhomeID })
+        @Html.ActionLink("Delete", "Delete", new { id = item.holidayhomeID })
+        @Html.ActionLink("Book", "Booking", new { id = item.holidayhomeID })</td>
+        
+        </tr>
+   
 }
 
 </table>

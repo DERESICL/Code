@@ -1,0 +1,15 @@
+D:\NCI\BookEasy\Project Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\NCI\BookEasy\Project Tests\bin\Debug\Project Tests.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\Project Tests.pdb
+D:\NCI\BookEasy\Project Tests\bin\Debug\EntityFramework.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\LumenWorks.Framework.IO.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\MvcApplication8.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\MvcApplication8.pdb
+D:\NCI\BookEasy\Project Tests\obj\Debug\Project Tests.dll
+D:\NCI\BookEasy\Project Tests\obj\Debug\Project Tests.pdb
+D:\NCI\BookEasy\Project Tests\bin\Debug\PagedList.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\PagedList.Mvc.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\PagedList.xml
+D:\NCI\BookEasy\Project Tests\bin\Debug\PagedList.Mvc.xml
+D:\NCI\BookEasy\Project Tests\bin\Debug\MvcApplication8_Accessor.dll
+D:\NCI\BookEasy\Project Tests\bin\Debug\MvcApplication8_Accessor.pdb

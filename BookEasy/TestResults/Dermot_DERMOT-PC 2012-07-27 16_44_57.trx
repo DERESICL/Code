@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ebe1187c-a4b0-4b79-8baf-92cb95829544" name="Dermot@DERMOT-PC 2012-07-27 16:44:57" runUser="Dermot-PC\Dermot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0f5dff7c-649d-4a55-a4b7-bda43cafb47a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dermot_DERMOT-PC 2012-07-27 16_44_57">
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\MvcApplication8.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\EntityFramework.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\packages\PagedList.Mvc.3.16\lib\net40\PagedList.Mvc.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\packages\PagedList.1.14\lib\net40\PagedList.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-27T16:44:57.7080000+01:00" queuing="2012-07-27T16:44:57.8220000+01:00" start="2012-07-27T16:44:58.2180000+01:00" finish="2012-07-27T16:45:02.2060000+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="11" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="setStreamSourceHolidayhomeTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f999f2f8-6c86-d7f5-ff07-bee95cae1165">
+      <Execution id="f82cdeec-9667-43fd-a116-efdacb7a0463" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceHolidayhomeTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeXLSXTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="b12fac82-342e-64ef-e372-4a55d64a8432">
+      <Execution id="caea6973-317d-48d2-ae0a-73a4ca531b3f" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeXLSXTest" />
+    </UnitTest>
+    <UnitTest name="setStreamSourceOwnerTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="a606be8b-3df4-b902-88f2-8409eee14bda">
+      <Execution id="b081e750-034d-4d86-9e3e-f1af0c878a17" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceOwnerTest" />
+    </UnitTest>
+    <UnitTest name="addOwnerDbTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f246b8fe-f22a-898d-a6e5-80aa639ea581">
+      <Execution id="19b50903-2e4d-46c2-adf5-91bb895ab20f" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.OwnerDALTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addOwnerDbTest" />
+    </UnitTest>
+    <UnitTest name="HolidayhomeControllerConstructorTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f7d0866b-44d5-078b-483c-14df9a3150f8">
+      <Execution id="017a5a8c-3962-4892-ae4c-1c6a692066d9" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HolidayhomeControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="HolidayhomeControllerConstructorTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="56cd2a6e-7464-c81f-f02b-f3fd66754efa">
+      <Execution id="8e6ae5f9-c037-4018-aa3f-3462b800ce3d" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HolidayhomeControllerConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="updateOwnerDbTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="9f51a3f1-5852-a0fe-32b6-dd0b3cc321f1">
+      <Execution id="ce19e57f-fe1d-4864-a56f-1ebc84ab8686" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.OwnerDALTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updateOwnerDbTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeBlankTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="be9a5232-24ea-9f29-50ce-95f02c6b80b6">
+      <Execution id="11901a9a-da58-412e-9f62-b2e84ac553e2" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeBlankTest" />
+    </UnitTest>
+    <UnitTest name="parseHolidayhomesTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="eca86a0c-b3cb-e1f0-535c-defcb924e01e">
+      <Execution id="6ae9edfb-05e3-4344-92f8-f10c49b59709" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseHolidayhomesTest1" />
+    </UnitTest>
+    <UnitTest name="supportsTypeCSVTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="7703e91f-a58f-bfce-8701-f1e8eccbbb1e">
+      <Execution id="a5d0ddd2-f3a3-4fcf-8ab2-3f23461c43c7" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeCSVTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeXLSTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="fb09d967-e59d-4548-64b2-52411553597d">
+      <Execution id="2ac99694-f8cc-48e7-a621-1e751c9ba728" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeXLSTest" />
+    </UnitTest>
+    <UnitTest name="OwnerDALConstructorTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="1a3ea576-cfad-e7c5-91dd-23e406427c02">
+      <Execution id="e809508f-8090-49ff-b60d-465252ad6ce9" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.OwnerDALTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OwnerDALConstructorTest" />
+    </UnitTest>
+    <UnitTest name="BookingTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="45f79e92-9a9a-dc05-4f77-db04329507ff">
+      <Execution id="21015e84-05fd-48a1-9b04-4578b580760c" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BookingTest" />
+    </UnitTest>
+    <UnitTest name="parseOwnersTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="78164f1c-d15c-40dc-5423-4041bda3ec3d">
+      <Execution id="10d66e29-6436-4683-9819-f2a2f7b992e0" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseOwnersTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1a3ea576-cfad-e7c5-91dd-23e406427c02" executionId="e809508f-8090-49ff-b60d-465252ad6ce9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45f79e92-9a9a-dc05-4f77-db04329507ff" executionId="21015e84-05fd-48a1-9b04-4578b580760c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56cd2a6e-7464-c81f-f02b-f3fd66754efa" executionId="8e6ae5f9-c037-4018-aa3f-3462b800ce3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7703e91f-a58f-bfce-8701-f1e8eccbbb1e" executionId="a5d0ddd2-f3a3-4fcf-8ab2-3f23461c43c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" executionId="10d66e29-6436-4683-9819-f2a2f7b992e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f51a3f1-5852-a0fe-32b6-dd0b3cc321f1" executionId="ce19e57f-fe1d-4864-a56f-1ebc84ab8686" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a606be8b-3df4-b902-88f2-8409eee14bda" executionId="b081e750-034d-4d86-9e3e-f1af0c878a17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b12fac82-342e-64ef-e372-4a55d64a8432" executionId="caea6973-317d-48d2-ae0a-73a4ca531b3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be9a5232-24ea-9f29-50ce-95f02c6b80b6" executionId="11901a9a-da58-412e-9f62-b2e84ac553e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" executionId="6ae9edfb-05e3-4344-92f8-f10c49b59709" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f246b8fe-f22a-898d-a6e5-80aa639ea581" executionId="19b50903-2e4d-46c2-adf5-91bb895ab20f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7d0866b-44d5-078b-483c-14df9a3150f8" executionId="017a5a8c-3962-4892-ae4c-1c6a692066d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f999f2f8-6c86-d7f5-ff07-bee95cae1165" executionId="f82cdeec-9667-43fd-a116-efdacb7a0463" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb09d967-e59d-4548-64b2-52411553597d" executionId="2ac99694-f8cc-48e7-a621-1e751c9ba728" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e809508f-8090-49ff-b60d-465252ad6ce9" testId="1a3ea576-cfad-e7c5-91dd-23e406427c02" testName="OwnerDALConstructorTest" computerName="DERMOT-PC" duration="00:00:00.1156957" startTime="2012-07-27T16:44:58.7910000+01:00" endTime="2012-07-27T16:44:59.3650000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e809508f-8090-49ff-b60d-465252ad6ce9">
+    </UnitTestResult>
+    <UnitTestResult executionId="21015e84-05fd-48a1-9b04-4578b580760c" testId="45f79e92-9a9a-dc05-4f77-db04329507ff" testName="BookingTest" computerName="DERMOT-PC" duration="00:00:02.0106221" startTime="2012-07-27T16:44:59.3810000+01:00" endTime="2012-07-27T16:45:01.4010000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21015e84-05fd-48a1-9b04-4578b580760c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Project_Tests.HolidayhomeControllerTest.BookingTest threw exception: 
+System.InvalidOperationException: The model backing the 'PropertyContext' context has changed since the database was created. Either manually delete/update the database, or call Database.SetInitializer with an IDatabaseInitializer instance. For example, the DropCreateDatabaseIfModelChanges strategy will automatically delete and recreate the database, and optionally seed it with new data.</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at BookEasy.DAL.HolidayhomeRepository.GetHolidayhomeByID(Int32 id) in D:\NCI\BookEasy\DAL\HolidayhomeRepository.cs:line 26
+   at BookEasy.Controllers.HolidayhomeController.Booking(Int32 id) in D:\NCI\BookEasy\Controllers\HolidayhomeController.cs:line 110
+   at Project_Tests.HolidayhomeControllerTest.BookingTest() in D:\NCI\BookEasy\Project Tests\HolidayhomeControllerTest.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e6ae5f9-c037-4018-aa3f-3462b800ce3d" testId="56cd2a6e-7464-c81f-f02b-f3fd66754efa" testName="HolidayhomeControllerConstructorTest1" computerName="DERMOT-PC" duration="00:00:00.0031751" startTime="2012-07-27T16:45:01.4320000+01:00" endTime="2012-07-27T16:45:01.4470000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e6ae5f9-c037-4018-aa3f-3462b800ce3d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5d0ddd2-f3a3-4fcf-8ab2-3f23461c43c7" testId="7703e91f-a58f-bfce-8701-f1e8eccbbb1e" testName="supportsTypeCSVTest" computerName="DERMOT-PC" duration="00:00:00.0077178" startTime="2012-07-27T16:45:01.4550000+01:00" endTime="2012-07-27T16:45:01.4700000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5d0ddd2-f3a3-4fcf-8ab2-3f23461c43c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="10d66e29-6436-4683-9819-f2a2f7b992e0" testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" testName="parseOwnersTest" computerName="DERMOT-PC" duration="00:00:00.0449672" startTime="2012-07-27T16:45:01.4790000+01:00" endTime="2012-07-27T16:45:01.5370000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10d66e29-6436-4683-9819-f2a2f7b992e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce19e57f-fe1d-4864-a56f-1ebc84ab8686" testId="9f51a3f1-5852-a0fe-32b6-dd0b3cc321f1" testName="updateOwnerDbTest" computerName="DERMOT-PC" duration="00:00:00.0363285" startTime="2012-07-27T16:45:01.5450000+01:00" endTime="2012-07-27T16:45:01.5890000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce19e57f-fe1d-4864-a56f-1ebc84ab8686">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Project_Tests.OwnerDALTest.updateOwnerDbTest threw exception: 
+System.InvalidOperationException: The model backing the 'PropertyContext' context has changed since the database was created. Either manually delete/update the database, or call Database.SetInitializer with an IDatabaseInitializer instance. For example, the DropCreateDatabaseIfModelChanges strategy will automatically delete and recreate the database, and optionally seed it with new data.</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.LazyInternalContext.get_ObjectContext()
+   at System.Data.Entity.Internal.InternalContext.DetectChanges(Boolean force)
+   at System.Data.Entity.Internal.InternalContext.GetStateEntry(Object entity)
+   at System.Data.Entity.Internal.InternalEntityEntry..ctor(InternalContext internalContext, Object entity)
+   at System.Data.Entity.DbContext.Entry[TEntity](TEntity entity)
+   at BookEasy.DAL.OwnerDAL.updateOwnerDb(Owner own) in D:\NCI\BookEasy\DAL\OwnerDAL.cs:line 22
+   at Project_Tests.OwnerDALTest.updateOwnerDbTest() in D:\NCI\BookEasy\Project Tests\OwnerDALTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b081e750-034d-4d86-9e3e-f1af0c878a17" testId="a606be8b-3df4-b902-88f2-8409eee14bda" testName="setStreamSourceOwnerTest" computerName="DERMOT-PC" duration="00:00:00.0027556" startTime="2012-07-27T16:45:01.6000000+01:00" endTime="2012-07-27T16:45:01.6220000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b081e750-034d-4d86-9e3e-f1af0c878a17">
+    </UnitTestResult>
+    <UnitTestResult executionId="caea6973-317d-48d2-ae0a-73a4ca531b3f" testId="b12fac82-342e-64ef-e372-4a55d64a8432" testName="notsupportsTypeXLSXTest" computerName="DERMOT-PC" duration="00:00:00.0010948" startTime="2012-07-27T16:45:01.6320000+01:00" endTime="2012-07-27T16:45:01.6470000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="caea6973-317d-48d2-ae0a-73a4ca531b3f">
+    </UnitTestResult>
+    <UnitTestResult executionId="11901a9a-da58-412e-9f62-b2e84ac553e2" testId="be9a5232-24ea-9f29-50ce-95f02c6b80b6" testName="notsupportsTypeBlankTest" computerName="DERMOT-PC" duration="00:00:00.0045718" startTime="2012-07-27T16:45:01.6590000+01:00" endTime="2012-07-27T16:45:01.7000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11901a9a-da58-412e-9f62-b2e84ac553e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ae9edfb-05e3-4344-92f8-f10c49b59709" testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" testName="parseHolidayhomesTest1" computerName="DERMOT-PC" duration="00:00:00.0047302" startTime="2012-07-27T16:45:01.7100000+01:00" endTime="2012-07-27T16:45:01.7270000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ae9edfb-05e3-4344-92f8-f10c49b59709">
+    </UnitTestResult>
+    <UnitTestResult executionId="19b50903-2e4d-46c2-adf5-91bb895ab20f" testId="f246b8fe-f22a-898d-a6e5-80aa639ea581" testName="addOwnerDbTest" computerName="DERMOT-PC" duration="00:00:00.0183423" startTime="2012-07-27T16:45:01.7410000+01:00" endTime="2012-07-27T16:45:01.7680000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19b50903-2e4d-46c2-adf5-91bb895ab20f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at Project_Tests.OwnerDALTest.addOwnerDbTest() in D:\NCI\BookEasy\Project Tests\OwnerDALTest.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="017a5a8c-3962-4892-ae4c-1c6a692066d9" testId="f7d0866b-44d5-078b-483c-14df9a3150f8" testName="HolidayhomeControllerConstructorTest" computerName="DERMOT-PC" duration="00:00:00.0081051" startTime="2012-07-27T16:45:01.9330000+01:00" endTime="2012-07-27T16:45:01.9520000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="017a5a8c-3962-4892-ae4c-1c6a692066d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="f82cdeec-9667-43fd-a116-efdacb7a0463" testId="f999f2f8-6c86-d7f5-ff07-bee95cae1165" testName="setStreamSourceHolidayhomeTest" computerName="DERMOT-PC" duration="00:00:00.0017613" startTime="2012-07-27T16:45:01.9630000+01:00" endTime="2012-07-27T16:45:01.9800000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f82cdeec-9667-43fd-a116-efdacb7a0463">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ac99694-f8cc-48e7-a621-1e751c9ba728" testId="fb09d967-e59d-4548-64b2-52411553597d" testName="notsupportsTypeXLSTest" computerName="DERMOT-PC" duration="00:00:00.0023057" startTime="2012-07-27T16:45:01.9950000+01:00" endTime="2012-07-27T16:45:02.0110000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ac99694-f8cc-48e7-a621-1e751c9ba728">
+    </UnitTestResult>
+  </Results>
+</TestRun>

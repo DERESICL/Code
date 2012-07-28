@@ -15,7 +15,7 @@ namespace BookEasy.Models
     {
         public int holidayhomeID { get; set; }
 
-        public string location { get; set; }
+        public string holidayhomeno { get; set; }
 
         [Required(ErrorMessage = "Addrsss is required.")]
         [Display(Name = "address1")]
@@ -48,9 +48,9 @@ namespace BookEasy.Models
         public Holidayhome()
         {
         }
-        public Holidayhome(String _location, String _address1, String _address2, String _country,String _email, String _contactno, String _amenities)
+        public Holidayhome(String _holidayhomeno, String _address1, String _address2, String _country,String _email, String _contactno, String _amenities)
         {
-            this.location = _location;
+            this.holidayhomeno = _holidayhomeno;
             this.address1 = _address1;
             this.address2 = _address2;
             this.country = _country;

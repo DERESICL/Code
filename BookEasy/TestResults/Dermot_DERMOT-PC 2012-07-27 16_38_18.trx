@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="960740f3-b5bf-40e0-aa78-6ec94427460d" name="Dermot@DERMOT-PC 2012-07-27 16:38:18" runUser="Dermot-PC\Dermot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0f5dff7c-649d-4a55-a4b7-bda43cafb47a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dermot_DERMOT-PC 2012-07-27 16_38_18">
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\MvcApplication8.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\bin\EntityFramework.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\packages\PagedList.Mvc.3.16\lib\net40\PagedList.Mvc.dll" />
+      <DeploymentItem filename="D:\NCI\BookEasy\packages\PagedList.1.14\lib\net40\PagedList.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-27T16:38:18.8900000+01:00" queuing="2012-07-27T16:38:19.3210000+01:00" start="2012-07-27T16:38:20.4690000+01:00" finish="2012-07-27T16:38:31.7470000+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="23" executed="23" passed="9" error="0" failed="12" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="addOwnerDbTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f246b8fe-f22a-898d-a6e5-80aa639ea581">
+      <Execution id="842a0846-a53e-41c0-b607-109e9cbc3b32" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.OwnerDALTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addOwnerDbTest" />
+    </UnitTest>
+    <UnitTest name="BookingTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="45f79e92-9a9a-dc05-4f77-db04329507ff">
+      <Execution id="a5ffe9c6-7c55-4d23-975a-4142b9553769" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BookingTest" />
+    </UnitTest>
+    <UnitTest name="setStreamSourceOwnerTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="a606be8b-3df4-b902-88f2-8409eee14bda">
+      <Execution id="9586c5c2-5bf7-41a5-828e-d044ec43c746" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceOwnerTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="ef8cac95-05f6-47c8-29d3-8acc6681539e">
+      <DeploymentItems>
+        <DeploymentItem filename="MvcApplication8.dll" />
+      </DeploymentItems>
+      <Execution id="73d5be52-43c0-4849-9b53-4fa17ddff4bb" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="HolidayhomeControllerConstructorTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f7d0866b-44d5-078b-483c-14df9a3150f8">
+      <Execution id="25b02e93-f52a-4d73-b234-538f12936fa5" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HolidayhomeControllerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="cca0f4fa-d85a-c183-9f8b-0b7778ab00ca">
+      <Execution id="f4eb5ab5-f91b-482c-a30f-ca61b039c411" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="c8e59e00-7ba0-758f-d5a1-4d733abb7dfb">
+      <Execution id="7d30afee-91f4-47d4-8c50-5ecd7f0d1c89" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DetailsTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="338ca8f8-a0e5-72f0-c67d-8516822b1ff3">
+      <Execution id="975f738c-6f5b-4723-bb19-f591c7a5b18f" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DetailsTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EditTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f1408058-e885-bb16-c61e-e729e7cc5923">
+      <Execution id="09540336-ced7-4d60-bf0f-6dd5ef22791a" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EditTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="ac66efa1-2d11-5285-c48e-b769842961e7">
+      <Execution id="1b0cbb38-ca01-47ed-9a2c-b384d8b93ccf" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EditTest1" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="HolidayhomeControllerConstructorTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="56cd2a6e-7464-c81f-f02b-f3fd66754efa">
+      <Execution id="1f04f8fc-1826-4b1d-81b8-577e9ea2939e" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HolidayhomeControllerConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="updateOwnerDbTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="9f51a3f1-5852-a0fe-32b6-dd0b3cc321f1">
+      <Execution id="15de8249-cd26-4c7d-8b29-4eb8ac5992b7" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.OwnerDALTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updateOwnerDbTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeBlankTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="be9a5232-24ea-9f29-50ce-95f02c6b80b6">
+      <Execution id="ad1939df-84e2-4d63-924b-7c996a088158" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeBlankTest" />
+    </UnitTest>
+    <UnitTest name="setStreamSourceHolidayhomeTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="f999f2f8-6c86-d7f5-ff07-bee95cae1165">
+      <Execution id="675975da-93f0-498d-bcb0-20aefe86bb60" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceHolidayhomeTest" />
+    </UnitTest>
+    <UnitTest name="CreateTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="05efa602-e8e6-9d87-bd23-76c340e72900">
+      <Execution id="fa1274bc-94c5-487d-8d6a-fea739a385e0" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest1" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="notsupportsTypeXLSXTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="b12fac82-342e-64ef-e372-4a55d64a8432">
+      <Execution id="4e9e2a8c-107f-412a-9a0c-48edf7e31153" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeXLSXTest" />
+    </UnitTest>
+    <UnitTest name="parseHolidayhomesTest1" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="eca86a0c-b3cb-e1f0-535c-defcb924e01e">
+      <Execution id="88878a75-6829-4f6d-8d68-8db6f23f45a1" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseHolidayhomesTest1" />
+    </UnitTest>
+    <UnitTest name="supportsTypeCSVTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="7703e91f-a58f-bfce-8701-f1e8eccbbb1e">
+      <Execution id="a605200a-f3c8-4763-9f21-d5184782ca47" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeCSVTest" />
+    </UnitTest>
+    <UnitTest name="notsupportsTypeXLSTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="fb09d967-e59d-4548-64b2-52411553597d">
+      <Execution id="fc6f9790-5aa8-48bd-ac2c-5f350a90464b" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="notsupportsTypeXLSTest" />
+    </UnitTest>
+    <UnitTest name="OwnerDALConstructorTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="1a3ea576-cfad-e7c5-91dd-23e406427c02">
+      <Execution id="a66652fa-a930-410d-86e0-8e064cd9d025" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.OwnerDALTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OwnerDALConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DeleteConfirmedTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="0e6eecf5-516e-682d-dd34-baba07ef2e6b">
+      <Execution id="1506a5b9-b2c3-4918-9a6e-0f4ab03e4ecb" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteConfirmedTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DeleteTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="aa828138-4b85-9626-92ce-4f3132ab2c5c">
+      <Execution id="ab696305-e144-45a9-8075-fdf67452bbbf" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.HolidayhomeControllerTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteTest" />
+      <AspNet webSiteUrl="http://localhost:49997/">
+        <Host pathToWebApp="D:\NCI\BookEasy" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="parseOwnersTest" storage="d:\nci\bookeasy\project tests\bin\debug\project tests.dll" id="78164f1c-d15c-40dc-5423-4041bda3ec3d">
+      <Execution id="0e4d73a4-e7eb-4857-a9c0-242313dd0839" />
+      <TestMethod codeBase="D:/NCI/BookEasy/Project Tests/bin/Debug/Project Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Project_Tests.CSVParserTest, Project Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseOwnersTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05efa602-e8e6-9d87-bd23-76c340e72900" executionId="fa1274bc-94c5-487d-8d6a-fea739a385e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e6eecf5-516e-682d-dd34-baba07ef2e6b" executionId="1506a5b9-b2c3-4918-9a6e-0f4ab03e4ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a3ea576-cfad-e7c5-91dd-23e406427c02" executionId="a66652fa-a930-410d-86e0-8e064cd9d025" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="338ca8f8-a0e5-72f0-c67d-8516822b1ff3" executionId="975f738c-6f5b-4723-bb19-f591c7a5b18f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45f79e92-9a9a-dc05-4f77-db04329507ff" executionId="a5ffe9c6-7c55-4d23-975a-4142b9553769" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56cd2a6e-7464-c81f-f02b-f3fd66754efa" executionId="1f04f8fc-1826-4b1d-81b8-577e9ea2939e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7703e91f-a58f-bfce-8701-f1e8eccbbb1e" executionId="a605200a-f3c8-4763-9f21-d5184782ca47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" executionId="0e4d73a4-e7eb-4857-a9c0-242313dd0839" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f51a3f1-5852-a0fe-32b6-dd0b3cc321f1" executionId="15de8249-cd26-4c7d-8b29-4eb8ac5992b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a606be8b-3df4-b902-88f2-8409eee14bda" executionId="9586c5c2-5bf7-41a5-828e-d044ec43c746" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa828138-4b85-9626-92ce-4f3132ab2c5c" executionId="ab696305-e144-45a9-8075-fdf67452bbbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac66efa1-2d11-5285-c48e-b769842961e7" executionId="1b0cbb38-ca01-47ed-9a2c-b384d8b93ccf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b12fac82-342e-64ef-e372-4a55d64a8432" executionId="4e9e2a8c-107f-412a-9a0c-48edf7e31153" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be9a5232-24ea-9f29-50ce-95f02c6b80b6" executionId="ad1939df-84e2-4d63-924b-7c996a088158" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8e59e00-7ba0-758f-d5a1-4d733abb7dfb" executionId="7d30afee-91f4-47d4-8c50-5ecd7f0d1c89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cca0f4fa-d85a-c183-9f8b-0b7778ab00ca" executionId="f4eb5ab5-f91b-482c-a30f-ca61b039c411" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" executionId="88878a75-6829-4f6d-8d68-8db6f23f45a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef8cac95-05f6-47c8-29d3-8acc6681539e" executionId="73d5be52-43c0-4849-9b53-4fa17ddff4bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1408058-e885-bb16-c61e-e729e7cc5923" executionId="09540336-ced7-4d60-bf0f-6dd5ef22791a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f246b8fe-f22a-898d-a6e5-80aa639ea581" executionId="842a0846-a53e-41c0-b607-109e9cbc3b32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7d0866b-44d5-078b-483c-14df9a3150f8" executionId="25b02e93-f52a-4d73-b234-538f12936fa5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f999f2f8-6c86-d7f5-ff07-bee95cae1165" executionId="675975da-93f0-498d-bcb0-20aefe86bb60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb09d967-e59d-4548-64b2-52411553597d" executionId="fc6f9790-5aa8-48bd-ac2c-5f350a90464b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fa1274bc-94c5-487d-8d6a-fea739a385e0" testId="05efa602-e8e6-9d87-bd23-76c340e72900" testName="CreateTest1" computerName="DERMOT-PC" startTime="2012-07-27T16:38:20.0350000+01:00" endTime="2012-07-27T16:38:27.9680000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa1274bc-94c5-487d-8d6a-fea739a385e0">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_CreateTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1506a5b9-b2c3-4918-9a6e-0f4ab03e4ecb" testId="0e6eecf5-516e-682d-dd34-baba07ef2e6b" testName="DeleteConfirmedTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:27.9840000+01:00" endTime="2012-07-27T16:38:28.0390000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1506a5b9-b2c3-4918-9a6e-0f4ab03e4ecb">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteConfirmedTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_DeleteConfirmedTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a66652fa-a930-410d-86e0-8e064cd9d025" testId="1a3ea576-cfad-e7c5-91dd-23e406427c02" testName="OwnerDALConstructorTest" computerName="DERMOT-PC" duration="00:00:00.1509461" startTime="2012-07-27T16:38:28.0730000+01:00" endTime="2012-07-27T16:38:28.6460000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a66652fa-a930-410d-86e0-8e064cd9d025">
+    </UnitTestResult>
+    <UnitTestResult executionId="975f738c-6f5b-4723-bb19-f591c7a5b18f" testId="338ca8f8-a0e5-72f0-c67d-8516822b1ff3" testName="DetailsTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:28.6610000+01:00" endTime="2012-07-27T16:38:28.6920000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="975f738c-6f5b-4723-bb19-f591c7a5b18f">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DetailsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_DetailsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5ffe9c6-7c55-4d23-975a-4142b9553769" testId="45f79e92-9a9a-dc05-4f77-db04329507ff" testName="BookingTest" computerName="DERMOT-PC" duration="00:00:01.8187085" startTime="2012-07-27T16:38:28.7000000+01:00" endTime="2012-07-27T16:38:30.5270000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5ffe9c6-7c55-4d23-975a-4142b9553769">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Project_Tests.HolidayhomeControllerTest.BookingTest threw exception: 
+System.InvalidOperationException: The model backing the 'PropertyContext' context has changed since the database was created. Either manually delete/update the database, or call Database.SetInitializer with an IDatabaseInitializer instance. For example, the DropCreateDatabaseIfModelChanges strategy will automatically delete and recreate the database, and optionally seed it with new data.</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at BookEasy.DAL.HolidayhomeRepository.GetHolidayhomeByID(Int32 id) in D:\NCI\BookEasy\DAL\HolidayhomeRepository.cs:line 26
+   at BookEasy.Controllers.HolidayhomeController.Booking(Int32 id) in D:\NCI\BookEasy\Controllers\HolidayhomeController.cs:line 110
+   at Project_Tests.HolidayhomeControllerTest.BookingTest() in D:\NCI\BookEasy\Project Tests\HolidayhomeControllerTest.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f04f8fc-1826-4b1d-81b8-577e9ea2939e" testId="56cd2a6e-7464-c81f-f02b-f3fd66754efa" testName="HolidayhomeControllerConstructorTest1" computerName="DERMOT-PC" duration="00:00:00.0055357" startTime="2012-07-27T16:38:30.5480000+01:00" endTime="2012-07-27T16:38:30.5640000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f04f8fc-1826-4b1d-81b8-577e9ea2939e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at Project_Tests.HolidayhomeControllerTest.HolidayhomeControllerConstructorTest1() in D:\NCI\BookEasy\Project Tests\HolidayhomeControllerTest.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a605200a-f3c8-4763-9f21-d5184782ca47" testId="7703e91f-a58f-bfce-8701-f1e8eccbbb1e" testName="supportsTypeCSVTest" computerName="DERMOT-PC" duration="00:00:00.0043187" startTime="2012-07-27T16:38:30.5720000+01:00" endTime="2012-07-27T16:38:30.5860000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a605200a-f3c8-4763-9f21-d5184782ca47">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e4d73a4-e7eb-4857-a9c0-242313dd0839" testId="78164f1c-d15c-40dc-5423-4041bda3ec3d" testName="parseOwnersTest" computerName="DERMOT-PC" duration="00:00:00.0439578" startTime="2012-07-27T16:38:30.5940000+01:00" endTime="2012-07-27T16:38:30.6460000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e4d73a4-e7eb-4857-a9c0-242313dd0839">
+    </UnitTestResult>
+    <UnitTestResult executionId="15de8249-cd26-4c7d-8b29-4eb8ac5992b7" testId="9f51a3f1-5852-a0fe-32b6-dd0b3cc321f1" testName="updateOwnerDbTest" computerName="DERMOT-PC" duration="00:00:00.0405494" startTime="2012-07-27T16:38:30.7910000+01:00" endTime="2012-07-27T16:38:30.8520000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15de8249-cd26-4c7d-8b29-4eb8ac5992b7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Project_Tests.OwnerDALTest.updateOwnerDbTest threw exception: 
+System.InvalidOperationException: The model backing the 'PropertyContext' context has changed since the database was created. Either manually delete/update the database, or call Database.SetInitializer with an IDatabaseInitializer instance. For example, the DropCreateDatabaseIfModelChanges strategy will automatically delete and recreate the database, and optionally seed it with new data.</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.LazyInternalContext.get_ObjectContext()
+   at System.Data.Entity.Internal.InternalContext.DetectChanges(Boolean force)
+   at System.Data.Entity.Internal.InternalContext.GetStateEntry(Object entity)
+   at System.Data.Entity.Internal.InternalEntityEntry..ctor(InternalContext internalContext, Object entity)
+   at System.Data.Entity.DbContext.Entry[TEntity](TEntity entity)
+   at BookEasy.DAL.OwnerDAL.updateOwnerDb(Owner own) in D:\NCI\BookEasy\DAL\OwnerDAL.cs:line 22
+   at Project_Tests.OwnerDALTest.updateOwnerDbTest() in D:\NCI\BookEasy\Project Tests\OwnerDALTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9586c5c2-5bf7-41a5-828e-d044ec43c746" testId="a606be8b-3df4-b902-88f2-8409eee14bda" testName="setStreamSourceOwnerTest" computerName="DERMOT-PC" duration="00:00:00.0035701" startTime="2012-07-27T16:38:30.8730000+01:00" endTime="2012-07-27T16:38:30.8870000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9586c5c2-5bf7-41a5-828e-d044ec43c746">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab696305-e144-45a9-8075-fdf67452bbbf" testId="aa828138-4b85-9626-92ce-4f3132ab2c5c" testName="DeleteTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:30.8950000+01:00" endTime="2012-07-27T16:38:30.9290000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab696305-e144-45a9-8075-fdf67452bbbf">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DeleteTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_DeleteTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b0cbb38-ca01-47ed-9a2c-b384d8b93ccf" testId="ac66efa1-2d11-5285-c48e-b769842961e7" testName="EditTest1" computerName="DERMOT-PC" startTime="2012-07-27T16:38:30.9510000+01:00" endTime="2012-07-27T16:38:30.9790000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b0cbb38-ca01-47ed-9a2c-b384d8b93ccf">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_EditTest1.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_EditTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e9e2a8c-107f-412a-9a0c-48edf7e31153" testId="b12fac82-342e-64ef-e372-4a55d64a8432" testName="notsupportsTypeXLSXTest" computerName="DERMOT-PC" duration="00:00:00.0029419" startTime="2012-07-27T16:38:30.9980000+01:00" endTime="2012-07-27T16:38:31.0110000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e9e2a8c-107f-412a-9a0c-48edf7e31153">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad1939df-84e2-4d63-924b-7c996a088158" testId="be9a5232-24ea-9f29-50ce-95f02c6b80b6" testName="notsupportsTypeBlankTest" computerName="DERMOT-PC" duration="00:00:00.0022164" startTime="2012-07-27T16:38:31.0250000+01:00" endTime="2012-07-27T16:38:31.0380000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad1939df-84e2-4d63-924b-7c996a088158">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d30afee-91f4-47d4-8c50-5ecd7f0d1c89" testId="c8e59e00-7ba0-758f-d5a1-4d733abb7dfb" testName="IndexTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:31.0470000+01:00" endTime="2012-07-27T16:38:31.0810000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d30afee-91f4-47d4-8c50-5ecd7f0d1c89">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_IndexTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4eb5ab5-f91b-482c-a30f-ca61b039c411" testId="cca0f4fa-d85a-c183-9f8b-0b7778ab00ca" testName="CreateTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:31.1000000+01:00" endTime="2012-07-27T16:38:31.1480000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4eb5ab5-f91b-482c-a30f-ca61b039c411">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CreateTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_CreateTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="88878a75-6829-4f6d-8d68-8db6f23f45a1" testId="eca86a0c-b3cb-e1f0-535c-defcb924e01e" testName="parseHolidayhomesTest1" computerName="DERMOT-PC" duration="00:00:00.0358306" startTime="2012-07-27T16:38:31.1720000+01:00" endTime="2012-07-27T16:38:31.2170000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88878a75-6829-4f6d-8d68-8db6f23f45a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="73d5be52-43c0-4849-9b53-4fa17ddff4bb" testId="ef8cac95-05f6-47c8-29d3-8acc6681539e" testName="DisposeTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:31.2250000+01:00" endTime="2012-07-27T16:38:31.2680000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73d5be52-43c0-4849-9b53-4fa17ddff4bb">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_DisposeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_DisposeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="09540336-ced7-4d60-bf0f-6dd5ef22791a" testId="f1408058-e885-bb16-c61e-e729e7cc5923" testName="EditTest" computerName="DERMOT-PC" startTime="2012-07-27T16:38:31.2880000+01:00" endTime="2012-07-27T16:38:31.3200000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09540336-ced7-4d60-bf0f-6dd5ef22791a">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:49997/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_EditTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="DERMOT-PC\WebRequestResponse_EditTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="842a0846-a53e-41c0-b607-109e9cbc3b32" testId="f246b8fe-f22a-898d-a6e5-80aa639ea581" testName="addOwnerDbTest" computerName="DERMOT-PC" duration="00:00:00.0608507" startTime="2012-07-27T16:38:31.3400000+01:00" endTime="2012-07-27T16:38:31.4120000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="842a0846-a53e-41c0-b607-109e9cbc3b32">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at Project_Tests.OwnerDALTest.addOwnerDbTest() in D:\NCI\BookEasy\Project Tests\OwnerDALTest.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25b02e93-f52a-4d73-b234-538f12936fa5" testId="f7d0866b-44d5-078b-483c-14df9a3150f8" testName="HolidayhomeControllerConstructorTest" computerName="DERMOT-PC" duration="00:00:00.0049686" startTime="2012-07-27T16:38:31.4360000+01:00" endTime="2012-07-27T16:38:31.4520000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25b02e93-f52a-4d73-b234-538f12936fa5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at Project_Tests.HolidayhomeControllerTest.HolidayhomeControllerConstructorTest() in D:\NCI\BookEasy\Project Tests\HolidayhomeControllerTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="675975da-93f0-498d-bcb0-20aefe86bb60" testId="f999f2f8-6c86-d7f5-ff07-bee95cae1165" testName="setStreamSourceHolidayhomeTest" computerName="DERMOT-PC" duration="00:00:00.0129149" startTime="2012-07-27T16:38:31.4600000+01:00" endTime="2012-07-27T16:38:31.4860000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="675975da-93f0-498d-bcb0-20aefe86bb60">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc6f9790-5aa8-48bd-ac2c-5f350a90464b" testId="fb09d967-e59d-4548-64b2-52411553597d" testName="notsupportsTypeXLSTest" computerName="DERMOT-PC" duration="00:00:00.0003727" startTime="2012-07-27T16:38:31.4940000+01:00" endTime="2012-07-27T16:38:31.5110000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc6f9790-5aa8-48bd-ac2c-5f350a90464b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

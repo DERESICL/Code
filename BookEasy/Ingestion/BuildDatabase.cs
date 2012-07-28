@@ -15,6 +15,7 @@ namespace BookEasy.Ingestion
         {
             addHomestoDb();
             addOwnerstoDb();
+            addBookingstoDb();
         }
 
 
@@ -49,7 +50,20 @@ namespace BookEasy.Ingestion
 
         }
 
+        private void addBookingstoDb()
+        {
 
+            List<Booking> bookinglist = parsefile.getCSVBookingdata();
+            BookingDAL bookingDAL = new BookingDAL();
+
+
+            foreach (Booking bok in bookinglist)
+            {
+                bookingDAL.addBookingDb(bok);
+
+            }
+
+        }
 
 
     }
